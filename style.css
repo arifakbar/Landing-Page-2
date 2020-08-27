@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Montserrat;
+    outline: none;
+    overflow: hidden;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    font-size: 18px;
+    font-weight: 700;
+}
+#nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    /* width: 100%; */
+    border-bottom: 1.3px solid #dadada;
+    padding: 0 90px;
+}
+#nav #list a{
+    display: inline-block;
+}
+#red{
+    color: red;
+}
+#list{
+    display: flex;
+}
+#rightOption{
+    display: flex;
+}
+#list li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 500;
+}
+#rightOption li{
+    padding-right: 70px;
+    font-weight: 500;
+}
+#main{
+    position: relative;
+    height: 76%;
+    /* background-color: blue; */
+    display: flex;
+}
+#left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background-color: #fff;
+    overflow: hidden;
+    padding:80px 0;
+}
+#details h1{
+    font-size: 60px;
+    margin: 10px;
+}
+#line{
+    margin: 15px;
+    height: 5px;
+    width: 120px;
+    background-color: black;
+}
+#details p{
+    margin: 15px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+#left button{
+    font-weight: 600;
+    position: absolute;
+    top: 275px;
+    left: 165px;
+    border: 1px solid black;
+    background-color: #fff;
+    letter-spacing: 3px;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+}
+#right{
+    position: relative;
+    width: 50%;
+    background-color: aqua;
+    overflow: hidden;
+}
+#right img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%,-50%) scale(2);
+    object-fit: cover;
+}
+#credits{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 13.1%;
+    border-top: 1.5px solid #dadada;
+    padding: 0 150px;
+}
+#credits img{
+    opacity: 0.5;
+    height: 40px;
+    width: 80px;
+}
